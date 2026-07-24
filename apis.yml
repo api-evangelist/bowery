@@ -1,8 +1,13 @@
 aid: bowery
 name: Bowery
-description: Bowery is a company surfaced as a portfolio company of bloomberg-beta, sv-angel and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bowery Farming was an American indoor vertical-farming (controlled-environment
+  agriculture) company headquartered in New York City that grew leafy greens and herbs
+  in automated, pesticide-free indoor farms serving major East Coast metro areas. Once
+  valued at roughly $2.3 billion and backed by investors including Bloomberg Beta and
+  SV Angel, the company ceased operations in November 2024 and its facilities and equipment
+  entered liquidation through 2025-2026. Bowery published no public developer API, SDK,
+  documentation, or discovery surface; this API Evangelist profile records the company's
+  identity and its probed domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/bowery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +16,31 @@ x-backed-by:
 - sv-angel
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-lifecycle-status: ceased-operations
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://boweryfarming.com/wp-content/uploads/2020/11/Instagram-Profile.jpg
 tags:
 - Company
+- AgTech
+- Vertical Farming
+- Indoor Farming
+- Controlled Environment Agriculture
+- Agriculture
+- Food
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bowery-domain-security.yml
 - type: Website
   url: https://boweryfarming.com
+- type: GitHubOrganization
+  url: https://github.com/BoweryFarming
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
