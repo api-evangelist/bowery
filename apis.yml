@@ -8,6 +8,7 @@ description: Bowery Farming was an American indoor vertical-farming (controlled-
   entered liquidation through 2025-2026. Bowery published no public developer API, SDK,
   documentation, or discovery surface; this API Evangelist profile records the company's
   identity and its probed domain-security posture only.
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/bowery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -52,6 +53,7 @@ tags:
 - Agriculture
 - Food
 - Sustainability
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
